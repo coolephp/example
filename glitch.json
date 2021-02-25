@@ -1,3 +1,3 @@
 {
-    "start": "php coole serve"
+    "start": "php -S 0.0.0.0:8080 public/index.php"
 }
