@@ -22,8 +22,8 @@
     ],
     "env": {
         "APP_NAME": "Vercel Coolephp",
-        "APP_ENV": "production",
-        "APP_DEBUG": "false",
+        "APP_ENV": "local",
+        "APP_DEBUG": "true",
         "APP_URL": "https://coolephp.vercel.app",
         "VERCEL_DEMO_MODE": "true",
         "NODE_PATH": "node"
