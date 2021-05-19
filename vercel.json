@@ -21,12 +21,11 @@
         }
     ],
     "env": {
-        "APP_NAME": "Vercel Coolephp",
+        "APP_NAME": "Coole Vercel",
         "APP_ENV": "local",
         "APP_DEBUG": "true",
-        "APP_URL": "https://coolephp.vercel.app",
+        "APP_URL": "https://coole.vercel.app",
         "LOG_FILE": "/tmp/app.log",
-        "VERCEL_DEMO_MODE": "true",
         "NODE_PATH": "node"
     }
 }
