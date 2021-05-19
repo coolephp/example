@@ -10,3 +10,4 @@ psalm.xml
 tests.php
 .DS_Store
 .history/
+runtime

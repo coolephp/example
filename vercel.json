@@ -25,7 +25,8 @@
         "APP_ENV": "local",
         "APP_DEBUG": "true",
         "APP_URL": "https://coole.vercel.app",
-        "LOG_FILE": "/tmp/app.log",
+        "LOG_FILE": "/tmp/runtime/logs/app.log",
+        "VIEW_CACHE_DIRECTORY": "/tmp/runtime/views",
         "NODE_PATH": "node"
     }
 }
