@@ -1,0 +1,31 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "/api/index.php",
+            "use": "vercel-php@0.3.1"
+        },
+        {
+            "src": "/public/**",
+            "use": "@vercel/static"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(css|js)/(.*)",
+            "dest": "public/$1/$2"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
+        }
+    ],
+    "env": {
+        "APP_NAME": "Vercel Coolephp",
+        "APP_ENV": "production",
+        "APP_DEBUG": "false",
+        "APP_URL": "https://coolephp.vercel.app",
+        "VERCEL_DEMO_MODE": "true",
+        "NODE_PATH": "node"
+    }
+}
