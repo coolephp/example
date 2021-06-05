@@ -14,7 +14,7 @@ return [
     /*
      * 默认链接
      */
-    'default' => env('DB_DEFAULT', 'mysql'),
+    'default' => cenv('DB_DEFAULT', 'mysql'),
 
     /*
      * 链接信息
@@ -25,31 +25,31 @@ return [
             'type' => 'mysql',
 
             // 地址
-            'hostname' => env('DB_HOSTNAME', '127.0.0.1'),
+            'hostname' => cenv('DB_HOSTNAME', '127.0.0.1'),
 
             // 端口
-            'hostport' => env('DB_HOSTPORT', 3306),
+            'hostport' => cenv('DB_HOSTPORT', 3306),
 
             // 用户名
-            'username' => env('DB_USERNAME', 'root'),
+            'username' => cenv('DB_USERNAME', 'root'),
 
             // 密码
-            'password' => env('DB_PASSWORD', ''),
+            'password' => cenv('DB_PASSWORD', ''),
 
             // 数据库
-            'database' => env('DB_DATABASE', 'coole'),
+            'database' => cenv('DB_DATABASE', 'coole'),
 
             // 额外参数
             'params' => [],
 
             // 字符集
-            'charset' => env('DB_CHARSET', 'utf8'),
+            'charset' => cenv('DB_CHARSET', 'utf8'),
 
             // 表前缀
-            'prefix' => env('DB_PREFIX', ''),
+            'prefix' => cenv('DB_PREFIX', ''),
 
             // Debug
-            'debug' => env('DB_DEBUG', false),
+            'debug' => cenv('DB_DEBUG', false),
         ],
     ],
 ];
