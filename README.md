@@ -1,12 +1,8 @@
-<p align="center"><img src="./public/logo.png" width="38%" alt="Coole"></p>
+> Coole 部署在 Vercel 上的在线示例
 
-> This is an official framework application template for [Coole](https://github.com/guanguans/coole). - 这是一个官方提供的 [Coole](https://github.com/guanguans/coole) 框架应用模板。
-
-![Tests](https://github.com/coolephp/skeleton/workflows/Tests/badge.svg)
-![Check & fix styling](https://github.com/coolephp/skeleton/workflows/Check%20&%20fix%20styling/badge.svg)
-[![Latest Stable Version](https://poser.pugx.org/coolephp/skeleton/v)](//packagist.org/packages/coolephp/skeleton)
-[![Total Downloads](https://poser.pugx.org/coolephp/skeleton/downloads)](//packagist.org/packages/coolephp/skeleton)
-[![License](https://poser.pugx.org/coolephp/skeleton/license)](//packagist.org/packages/coolephp/skeleton)
+<p align="center">
+    <a href="https://coole.vercel.app"><img src="./public/static/index.png" alt="Coole"></a>
+</p>
 
 ## Documentation
 
