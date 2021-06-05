@@ -1,4 +1,4 @@
-> Coole 部署在 Vercel 上的在线示例
+> Coole 部署在 Vercel 上的在线示例。
 
 <p align="center">
     <a href="https://coole.vercel.app"><img src="./public/static/index.png" alt="Coole"></a>
